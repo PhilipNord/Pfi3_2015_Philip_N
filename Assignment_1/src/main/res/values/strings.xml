@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quote Generator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string-array name = "qoute">
+        <item> "Common sense isn't so common"
+                - Voltaire </item>
+        <item> “There is only one thing that makes a dream impossible to achieve: the fear of failure.”
+                – Paulo Coelho</item>
+        <item> “Be not afraid of life. Believe that life is worth living, and your belief will help create the fact.”
+                – William James </item>
+        <item> “Dont cry because its over, smile because it happened.”
+                - Dr. Seuss</item>
+        <item> “Be yourself; everyone else is already taken.”
+                - Oscar Wilde </item>
+        <item> “Two things are infinite: the universe and human stupidity; and Im not sure about the universe.”
+                - Albert Einstein </item>
+        <item> “You know youre in love when you cant fall asleep because reality is finally better than your dreams.”
+                - Dr. Seuss</item>
+
+    </string-array>
+    <string name="Svenska">Svenska</string>
+
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quote Generator</string>
+
+    <string-array name = "qoute">
+        <item> "Folk vett är inte så folklig länge"
+
+                - Voltaire </item>
+        <item> “Det är bara en sak som stoppar en för att upnå sina drömmar: Rädlsan att misslyckas"
+
+            – Paulo Coelho</item>
+        <item> “Var inte rädd för livet. Tro att livet är värt att leva, och din tro kommer att bidra till att skapa det faktum"
+
+                – William James </item>
+        <item> “Gråt inte för att det är över, le istället för att det hände”
+
+            - Dr. Seuss</item>
+        <item> "Var dig själv; Alla andra är redan upptagen”
+
+                - Oscar Wilde</item>
+        <item>
+Två saker är oändliga: universum and mänsklighetens idioti; men jag är inte säker om universum"
+
+                - Albert Einstein  </item>
+        <item> Du vet att du är kär när du inte kan somna för att verkligheten är äntligen bättre än dina drömmar"
+
+                - Dr. Seuss
+</item>
+
+    </string-array>
+</resources>
