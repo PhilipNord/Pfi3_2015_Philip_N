@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.philip.assignment2.MenuFragment"
+    android:background="#ffffffff"
+    android:id="@+id/menu_layout">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/journey_img"
+            android:layout_marginTop="116dp"
+            android:background="@drawable/stapp1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timetable_img"
+            android:background="@drawable/stapp2"
+            android:layout_alignTop="@+id/journey_img"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="37dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dept_img"
+            android:layout_marginTop="127dp"
+            android:background="@drawable/stapp3"
+            android:layout_below="@+id/journey_img"
+            android:layout_alignStart="@+id/journey_img" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tickets_img"
+            android:background="@drawable/stapp4"
+            android:layout_alignBottom="@+id/dept_img"
+            android:layout_alignStart="@+id/timetable_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/search"
+            android:id="@+id/journey_txt"
+            android:layout_below="@+id/journey_img"
+            android:layout_alignStart="@+id/journey_img"
+            android:focusableInTouchMode="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/timetable"
+            android:id="@+id/timetable_txt"
+            android:layout_alignTop="@+id/journey_txt"
+            android:layout_alignStart="@+id/timetable_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dept"
+            android:id="@+id/dept_txt"
+            android:layout_below="@+id/dept_img"
+            android:layout_alignStart="@+id/dept_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/ticket"
+            android:id="@+id/ticketstxt"
+            android:layout_below="@+id/tickets_img"
+            android:layout_alignEnd="@+id/timetable_img" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
