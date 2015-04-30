@@ -14,7 +14,7 @@ import android.view.MenuItem;
 
 public class SkaneTrafikenAPP extends ActionBarActivity {
 
-    ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#FF0000"));
+   ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#FF0000"));
 
     public void setActionBarTitle(String title) {
 

@@ -21,7 +21,7 @@
                 - Dr. Seuss</item>
 
     </string-array>
-    <string name="Svenska">Svenska</string>
+    <string name="Svenska" translatable="false">Svenska</string>
 
 
 </resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/planet_img"
+        android:adjustViewBounds="true"
+        android:baselineAlignBottom="false"
+        android:layout_gravity="bottom"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="planet_title"
+        android:textColor="#FFFFFF"
+        android:id="@+id/planet_title"
+        android:layout_margin="8dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+</LinearLayout>
